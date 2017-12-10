@@ -1,0 +1,43 @@
+@import "~sass/utils/index";
+
+.container {
+  background: $primary;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 900px;
+  padding: 30px;
+}
+
+.logo-container {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.logo-wrapper {
+  color: $white;
+  display: flex;
+  max-width: 200px;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.text {
+  color: $white;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+}

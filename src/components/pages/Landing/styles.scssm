@@ -1,0 +1,66 @@
+@import "~sass/utils/index";
+
+.banner {
+}
+
+.title {
+  color: $white;
+  font-size: 45px;
+  font-weight: 800;
+  max-width: 400px;
+  margin: 50px 0;
+  text-shadow: 1px 1px 4px $gray;
+}
+
+.float-element {
+  position: absolute;
+  right: 80px;
+  top: 0;
+  max-width: 300px;
+}
+
+.mobile-wrapper {
+  margin: auto;
+  max-width: 250px;position: relative;
+}
+
+.float-image {
+  position: absolute;
+  left: 13px;
+  max-width: 225px;
+  top: 37px;
+}
+
+.links-container {
+  max-width: 400px;
+}
+
+.description {
+  font-weight: 500;
+  text-align: center;
+}
+
+.links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  margin: 0 15px;
+  width: 50px;
+}
+
+.button-wrapper {
+  margin-bottom: 30px;
+  max-width: 300px;
+}
+
+.button {
+  background: $secondary;
+  color: $white;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-align: center;
+}

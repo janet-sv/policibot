@@ -1,39 +1,22 @@
 /* Colors */
 
-$black:        hsl(0, 0%, 4%) !default;
-$black-bis:    hsl(0, 0%, 7%) !default;
-$black-ter:    hsl(0, 0%, 14%) !default;
+$white:        #FFFFFF !default;
+$black:        #333333 !default;
+$light-gray:   #DDDDDD !default;
 
-$grey-darker:  hsl(0, 0%, 21%) !default;
-$grey-dark:    hsl(0, 0%, 29%) !default;
-$grey:         hsl(0, 0%, 48%) !default;
-$grey-light:   hsl(0, 0%, 71%) !default;
-$grey-lighter: hsl(0, 0%, 86%) !default;
-
-$white-ter:    hsl(0, 0%, 96%) !default;
-$white-bis:    hsl(0, 0%, 98%) !default;
-$white:        hsl(0, 0%, 100%) !default;
-
-$orange:       hsl(14,  100%, 53%) !default;
-$yellow:       hsl(48,  100%, 67%) !default;
-$green:        hsl(141, 71%,  48%) !default;
-$turquoise:    hsl(171, 100%, 41%) !default;
-$blue:         hsl(217, 71%,  53%) !default;
-$purple:       hsl(271, 100%, 71%) !default;
-$red:          hsl(348, 100%, 61%) !default;
+$yellow:       #FED317 !default;
+$blue:         #394FA2 !default;
+$gray:         #71757B !default;
+$brown:        #A19559 !default;
+$beige:        #CEB339 !default;
+$red:          #D33037 !default;
 
 /* Brand */
 
-$primary: $turquoise !default;
-
-$info: $blue !default;
-$success: $green !default;
-$warning: $yellow !default;
-$danger: $red !default;
-
-$light: $white-ter !default
-$dark: $grey-darker !default
-
+$primary: $blue !default;
+$secondary: $yellow !default;
+$dark: $black !default;
+$light: $white !default;
 
 /* Responsiveness */
 
@@ -52,6 +35,6 @@ $lh-default: 1.2 !default;
 
 $body-background-color: $white;
 $body-color: $dark;
-$body-font: BlinkMacSystemFont, "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$body-font-size: 16px !default;
+$body-font: "Montserrat", BlinkMacSystemFont, "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$body-font-size: 18px !default;
 $body-line-height: $lh-default !default;

@@ -1,0 +1,30 @@
+@import "~sass/utils/index";
+
+.register {}
+
+.links-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px;
+}
+
+.description {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.block {
+  display: block;
+}
+
+.links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  margin: 0 15px;
+  width: 50px;
+}

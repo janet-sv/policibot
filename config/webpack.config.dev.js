@@ -93,6 +93,7 @@ module.exports = {
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
       'components': paths.appSrc + '/components',
+      'pages': paths.appSrc + '/components/pages',
       'services': paths.appSrc + '/services',
       'sass': paths.appSrc + '/sass',
       'utils': paths.appSrc + '/utils',

@@ -1,0 +1,30 @@
+@import "~sass/utils/index";
+
+.title {
+  font-size: 25px;
+  color: $primary;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.legend-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.legend-column {
+  width: 33%;
+}
+
+.legend {
+  margin-bottom: 5px;
+  line-height: 18px;
+}
+
+.legend-sign {
+  margin-right: 10px;
+  height: 20px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}

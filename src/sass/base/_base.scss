@@ -17,21 +17,21 @@ button {
 }
 
 ::-webkit-input-placeholder {
-  color: $grey-lighter;
+  color: $gray;
 }
 
 :-moz-placeholder {
-  color: $grey-lighter;
+  color: $gray;
   opacity: 1;
 }
 
 ::-moz-placeholder {
-  color: $grey-lighter;
+  color: $gray;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: $grey-lighter;
+  color: $gray;
 }
 
 [type="search"] {
@@ -46,7 +46,6 @@ body {
   font-family: $body-font;
   font-size: $body-font-size;
   line-height: $body-line-height;
-  text-align: center;
 }
 
 strong {
@@ -58,7 +57,7 @@ strong {
 hr {
   background: transparent;
   border: 0;
-  border-bottom: $grey-lighter;
+  border-bottom: $gray;
   height: 0;
   margin: 15px 0;
   overflow: hidden;
@@ -86,7 +85,11 @@ button {
 }
 
 a {
-  text-decoration: underline;
+  color: $secondary;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 img {

@@ -1,0 +1,45 @@
+@import "~sass/utils/index";
+
+.features {
+  background: $light-gray;
+}
+
+.content {
+  margin: auto;
+  max-width: 900px;
+  padding: 30px;
+}
+
+.subtitle {
+  color: $primary;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.elements {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.element {
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.image-wrapper {
+  max-width: 80px;
+  margin: auto;
+}
+
+.name {
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 15px;
+}

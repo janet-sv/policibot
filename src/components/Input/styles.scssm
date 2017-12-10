@@ -1,0 +1,41 @@
+@import "~sass/utils/index";
+
+.container {
+  position: relative;
+  text-align: left;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid $primary;
+  color: $black;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 5px;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+
+.input-error {
+  font-size: 14px;
+  color: $red;
+  display: none;
+  position: absolute;
+  top: calc(100% + 5px);
+
+  &.has-error {
+    display: block;
+  }
+}
+

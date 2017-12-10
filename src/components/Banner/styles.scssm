@@ -1,0 +1,13 @@
+@import "~sass/utils/index";
+
+.banner {
+  background: linear-gradient(to bottom, $primary, #455db5);
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 900px;
+  padding: 30px;
+  padding-top: 10px;
+  position: relative;
+}
