@@ -4,7 +4,7 @@ class securityService {
   endpoint = process.env.REACT_APP_API_URL;
 
   async getComplaint(id) {
-    const url = `${this.endpoint}/messages/${id}`;
+    const url = `${this.endpoint}/messages/${id}/`;
 
     const response = await fetch(url);
 
