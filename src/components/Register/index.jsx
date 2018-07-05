@@ -12,12 +12,12 @@ const Register = ({
         <span styleName="block">Escríbenos, sólo son unos cuantos pasos para registrar tu caso.</span>
       </p>
       <div styleName="links">
-        <a href="https://www.facebook.com/PoliciBot-1874556739521249/">
+        <a href="https://www.facebook.com/PoliciBot-1874556739521249/" target="_blank">
           <div styleName="link">
             <img src={fbIcon} alt="Facebook"/>
           </div>
         </a>
-        <a href="https://www.messenger.com/t/1874556739521249">
+        <a href="https://www.messenger.com/t/1874556739521249" target="_blank">
           <div styleName="link">
             <img src={messengerIcon} alt="Messenger"/>
           </div>

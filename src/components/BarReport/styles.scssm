@@ -1,0 +1,8 @@
+@import "~sass/utils/index";
+
+.title {
+  font-size: 25px;
+  color: $primary;
+  font-weight: 600;
+  margin-bottom: 15px;
+}

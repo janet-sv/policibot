@@ -7,7 +7,7 @@ import {
   Marker,
 } from "react-google-maps";
 
-const HeatMap = withScriptjs(withGoogleMap(props =>
+const MarkerMap = withScriptjs(withGoogleMap(props =>
   <GoogleMap
     defaultZoom={props.zoom}
     defaultCenter={props.center}
@@ -24,14 +24,14 @@ const HeatMap = withScriptjs(withGoogleMap(props =>
   </GoogleMap>
 ));
 
-HeatMap.propTypes = {
+MarkerMap.propTypes = {
   zoom: PropTypes.number,
   center: PropTypes.object,
 };
 
-HeatMap.defaultProps = {
+MarkerMap.defaultProps = {
   zoom: 5,
   center: { lat: -9.8177974, lng: -74.739109 },
 };
 
-export default HeatMap;
+export default MarkerMap;

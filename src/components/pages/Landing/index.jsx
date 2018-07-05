@@ -24,7 +24,7 @@ class Landing extends PureComponent {
               BUSCAMOS QUE TU DENUNCIA SEA ATENDIDA
             </h1>
             <div styleName="button-wrapper">
-              <a href="https://www.messenger.com/t/1874556739521249">
+              <a href="https://www.messenger.com/t/1874556739521249" target="_blank">
                 <div styleName="button">INICIA TU DENUNCIA</div>
               </a>
             </div>
@@ -36,12 +36,12 @@ class Landing extends PureComponent {
               <div styleName="links-container">
                 <p styleName="description">Realiza tu denuncia por estos canales:</p>
                 <div styleName="links">
-                  <a href="https://www.facebook.com/PoliciBot-1874556739521249/">
+                  <a href="https://www.facebook.com/PoliciBot-1874556739521249/" target="_blank">
                     <div styleName="link">
                       <img src={fbIcon} alt="Facebook"/>
                     </div>
                   </a>
-                  <a href="https://www.messenger.com/t/1874556739521249">
+                  <a href="https://www.messenger.com/t/1874556739521249" target="_blank">
                     <div styleName="link">
                       <img src={messengerIcon} alt="Messenger"/>
                     </div>

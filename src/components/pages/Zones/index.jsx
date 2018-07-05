@@ -3,6 +3,7 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 import HeatMapReport from 'components/HeatMapReport';
 import MarkerMapReport from 'components/MarkerMapReport';
+import BarReport from 'components/BarReport';
 import './styles.scssm';
 
 class Zones extends PureComponent {
@@ -18,6 +19,11 @@ class Zones extends PureComponent {
         <section styleName="zones-report is-gray">
           <div styleName="content">
             <MarkerMapReport />
+          </div>
+        </section>
+        <section styleName="zones-report">
+          <div styleName="content">
+            <BarReport />
           </div>
         </section>
         <Footer />

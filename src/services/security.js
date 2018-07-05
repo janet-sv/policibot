@@ -62,6 +62,37 @@ class securityService {
       kind: complaint.kind,
     }));
   }
+
+  async getDistricsComplaints() {
+    const url = `${this.endpoint}/messages/districts/`;
+
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      const error = switchcase({
+        '404': 'Theres not districts',
+      })('An unexpected error ocurred')(response.status);
+
+      throw new Error(`Not found distritcs ${data.status}`);
+    }
+
+    const data = await response.json();
+
+    if (data.Error) {
+      throw new Error(`There was an error in the response ${data.Error}`);
+    }
+
+    return data.map((district, key) => ({
+      id: key,
+      district: district.name,
+      stole: district.data['HURTO'],
+      rob: district.data['ROBO'],
+      violent: district.data['ACOSO-VIOLACION'],
+      drugs: district.data['DROGAS'],
+      murder: district.data['HOMICIDIO'],
+      others: district.data['OTROS'],
+    }));
+  }
 }
 
 export default new securityService();
